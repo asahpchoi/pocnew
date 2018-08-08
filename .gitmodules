@@ -1,3 +1,4 @@
 [submodule "src/app/country"]
 	path = src/app/country
-	url = https://asahpchoi@github.com/asahpchoi/ph.git
+	url = https://asahpchoi@github.com/asahpchoi/vn.git
+	branch = master
