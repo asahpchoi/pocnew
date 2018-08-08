@@ -4,14 +4,17 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 import {LocalModule} from './country/local.module';
-
+import {MaterialModule} from './shared/material/material.module';
+ 
+ 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
     BrowserModule,
-    LocalModule
+    LocalModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
